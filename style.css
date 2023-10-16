@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -10,7 +12,7 @@ body {
     background-position: bottom;
 }
 
-table {
+#table {
     width: 1200px;
     height: 100vh;
     border-collapse: collapse;
@@ -24,11 +26,13 @@ table {
 tr, td {
     border: 25px solid white;
     text-align: center;
+    vertical-align: bottom;
+    font-size: 0;
 }
 
 p {
     width: max-content;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 30px;
     background-color: white;
     border-radius: 25px;
@@ -40,7 +44,7 @@ p {
 }
 
 img {
-    width: 100%;
+    width: 560px;
 }
 
 .header {
@@ -65,11 +69,12 @@ a {
     display: block;
     background-color: #894AFF;
     color: white;
-    padding: 11px 20px;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    padding: 11px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
     text-decoration: none;
+    font-size: 38px;
 }
